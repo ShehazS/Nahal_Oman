@@ -12,14 +12,43 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_sell"
         android:name="com.example.nahaloman.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_Sell"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_wallet"
         android:name="com.example.nahaloman.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_Wallet"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
+
+<!--<item-->
+<!--android:id="@+id/nav_smart"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_smart" />-->
+<!--<item-->
+<!--android:id="@+id/nav_micro"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_micro" />-->
+<!--<item-->
+<!--android:id="@+id/nav_advance"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_advance" />-->
+<!--<item-->
+<!--android:id="@+id/nav_insurance"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_insurance" />-->
+<!--<item-->
+<!--android:id="@+id/nav_analytic"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_analytic" />-->
+<!--<item-->
+<!--android:id="@+id/nav_settings"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_settings" />-->
+<!--<item-->
+<!--android:id="@+id/nav_logout"-->
+<!--android:icon="@drawable/ic_menu_slideshow"-->
+<!--android:title="@string/menu_logout" />-->

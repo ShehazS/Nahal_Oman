@@ -8,6 +8,13 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_Sell">Sell</string>
+    <string name="menu_Wallet">Wallet</string>
+    <string name="menu_smart">Smart Hive Monitoring</string>
+    <string name="menu_micro">Micro Finance</string>
+    <string name="menu_advance">Advance Guide</string>
+    <string name="menu_insurance">Insurance</string>
+    <string name="menu_analytic">Analytics</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
 </resources>
