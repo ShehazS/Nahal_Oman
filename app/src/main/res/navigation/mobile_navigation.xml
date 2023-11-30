@@ -22,33 +22,38 @@
         android:name="com.example.nahaloman.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_Wallet"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_smart"
+        android:name="com.example.nahaloman.ui.smarthive.smarthive"
+        android:label="@string/menu_smart"
+        tools:layout="@layout/smarthive" />
+    <fragment
+        android:id="@+id/nav_micro"
+        android:name="com.example.nahaloman.ui.microfinance.microfinance"
+        android:label="@string/menu_micro"
+        tools:layout="@layout/microfinance" />
+    <fragment
+        android:id="@+id/nav_advance"
+        android:name="com.example.nahaloman.ui.advanceguide.advanceguide"
+        android:label="@string/menu_advance"
+        tools:layout="@layout/advanceguide" />
+    <fragment
+        android:id="@+id/nav_insurance"
+        android:name="com.example.nahaloman.ui.insurance.insurance"
+        android:label="@string/menu_insurance"
+        tools:layout="@layout/insurance" />
+    <fragment
+        android:id="@+id/nav_analytic"
+        android:name="com.example.nahaloman.ui.analytic.analytic"
+        android:label="@string/menu_analytic"
+        tools:layout="@layout/analytics" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.nahaloman.ui.setting.setting"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/settings" />
 </navigation>
 
-<!--<item-->
-<!--android:id="@+id/nav_smart"-->
-<!--android:icon="@drawable/ic_menu_slideshow"-->
-<!--android:title="@string/menu_smart" />-->
-<!--<item-->
-<!--android:id="@+id/nav_micro"-->
-<!--android:icon="@drawable/ic_menu_slideshow"-->
-<!--android:title="@string/menu_micro" />-->
-<!--<item-->
-<!--android:id="@+id/nav_advance"-->
-<!--android:icon="@drawable/ic_menu_slideshow"-->
-<!--android:title="@string/menu_advance" />-->
-<!--<item-->
-<!--android:id="@+id/nav_insurance"-->
-<!--android:icon="@drawable/ic_menu_slideshow"-->
-<!--android:title="@string/menu_insurance" />-->
-<!--<item-->
-<!--android:id="@+id/nav_analytic"-->
-<!--android:icon="@drawable/ic_menu_slideshow"-->
-<!--android:title="@string/menu_analytic" />-->
-<!--<item-->
-<!--android:id="@+id/nav_settings"-->
-<!--android:icon="@drawable/ic_menu_slideshow"-->
-<!--android:title="@string/menu_settings" />-->
-<!--<item-->
 <!--android:id="@+id/nav_logout"-->
 <!--android:icon="@drawable/ic_menu_slideshow"-->
 <!--android:title="@string/menu_logout" />-->
