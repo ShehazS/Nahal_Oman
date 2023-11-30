@@ -6,43 +6,43 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/baseline_house_24"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_sell"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/baseline_sell_24"
             android:title="@string/menu_Sell" />
         <item
             android:id="@+id/nav_wallet"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_account_balance_wallet_24"
             android:title="@string/menu_Wallet" />
         <item
             android:id="@+id/nav_smart"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_auto_mode_24"
             android:title="@string/menu_smart" />
         <item
             android:id="@+id/nav_micro"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_attach_money_24"
             android:title="@string/menu_micro" />
         <item
             android:id="@+id/nav_advance"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_school_24"
             android:title="@string/menu_advance" />
         <item
             android:id="@+id/nav_insurance"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_policy_24"
             android:title="@string/menu_insurance" />
         <item
             android:id="@+id/nav_analytic"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_analytics_24"
             android:title="@string/menu_analytic" />
         <item
             android:id="@+id/nav_settings"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_settings_24"
             android:title="@string/menu_settings" />
         <item
             android:id="@+id/nav_logout"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_logout_24"
             android:title="@string/menu_logout" />
     </group>
 </menu>
