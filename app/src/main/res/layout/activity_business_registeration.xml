@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".business_registeration">
+    tools:context=".business_registeration"
+    android:background="@drawable/logovtwo">
 
 
     <EditText
@@ -16,7 +17,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.93"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/pno"
@@ -28,7 +31,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -36,12 +41,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="Business Registeration"
-        android:textColor="@color/black"
         android:textSize="35dp"
         app:layout_constraintBottom_toTopOf="@+id/fname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/bname"
@@ -52,7 +58,9 @@
         app:layout_constraintBottom_toTopOf="@+id/badress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/email"
@@ -64,7 +72,9 @@
         app:layout_constraintBottom_toTopOf="@+id/pno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/badress"
@@ -76,7 +86,9 @@
         app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/pasword"
@@ -114,7 +126,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/cpasword"
