@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/backgroundpic"
     android:layout_height="match_parent"
     tools:context=".LoginPage">
 
@@ -27,6 +28,7 @@
         android:background="@drawable/custome_edittext_1"
         android:drawableLeft="@drawable/baseline_person_24"
         android:hint="Enter Email"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/ptext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -40,6 +42,7 @@
         android:background="@drawable/custome_edittext_1"
         android:drawableLeft="@drawable/baseline_lock_24"
         android:hint="Enter Password"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -83,6 +86,7 @@
         android:textSize="18dp"
         android:textColorHint="#F10000"
         android:textStyle="bold"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.569"
