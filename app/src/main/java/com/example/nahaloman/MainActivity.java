@@ -1,8 +1,12 @@
 package com.example.nahaloman;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -38,15 +42,22 @@ public class MainActivity extends AppCompatActivity {
         });
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
+        View headerView = navigationView.getHeaderView(0); // 0 is the index of the header view
+
+        TextView businessname = headerView.findViewById(R.id.businessname); // Replace textViewId with the actual ID of your TextView
+        businessname.setText("Shakku LLC");
+        TextView businessmanname = headerView.findViewById(R.id.businessmanname); // Replace textViewId with the actual ID of your TextView
+        businessmanname.setText("Shakku Snake");
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_sell, R.id.nav_wallet,R.id.nav_smart,R.id.nav_micro,R.id.nav_advance,R.id.nav_insurance,R.id.nav_analytic,R.id.nav_settings)
+                R.id.nav_home, R.id.nav_sell, R.id.nav_wallet, R.id.nav_smart, R.id.nav_micro, R.id.nav_advance, R.id.nav_insurance, R.id.nav_analytic, R.id.nav_settings)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
     }
 
     @Override
@@ -61,5 +72,17 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId()==R.id.action_settings) {
+            Toast.makeText(this, "Hehe u touched me", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else
+        {
+            return super.onOptionsItemSelected(item);
+        }
     }
 }
