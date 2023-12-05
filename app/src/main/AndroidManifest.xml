@@ -13,13 +13,16 @@
         android:theme="@style/Theme.NahalOman"
         tools:targetApi="31">
         <activity
+            android:name=".sell_page"
+            android:exported="false" />
+        <activity
             android:name=".business_registeration"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.NahalOman.NoActionBar"></activity>
+            android:theme="@style/Theme.NahalOman.NoActionBar" />
         <activity
             android:name=".customer_register"
             android:exported="false" />
@@ -38,8 +41,7 @@
         <activity
             android:name=".CusMainActivity"
             android:exported="false"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".LoginPage"
             android:exported="false" />
