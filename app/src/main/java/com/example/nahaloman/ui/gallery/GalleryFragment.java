@@ -1,5 +1,6 @@
 package com.example.nahaloman.ui.gallery;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.nahaloman.CusMainActivity;
+import com.example.nahaloman.LoginPage;
 import com.example.nahaloman.databinding.FragmentGalleryBinding;
+import com.example.nahaloman.sell_page;
 
 public class GalleryFragment extends Fragment {
 
@@ -32,6 +36,8 @@ public class GalleryFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent=new Intent(root.getContext(), sell_page.class);
+                startActivity(intent);
                 Toast.makeText(getContext(), "Hello", Toast.LENGTH_SHORT).show();
             }
         });
