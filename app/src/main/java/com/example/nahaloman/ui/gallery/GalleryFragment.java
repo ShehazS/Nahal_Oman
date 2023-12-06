@@ -26,8 +26,8 @@ public class GalleryFragment extends Fragment {
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        // this is comment final TextView textView = binding.textGallery;
+        // this is comment galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         final Button button = binding.button;
         button.setOnClickListener(new View.OnClickListener() {
             @Override

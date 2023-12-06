@@ -28,8 +28,8 @@ public class setting extends Fragment {
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //final TextView textView = binding.textGallery;
+        //galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         final Button button = binding.button;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
