@@ -34,7 +34,7 @@
         android:layout_width="130dp"
         android:layout_height="68dp"
         android:layout_marginBottom="480dp"
-        android:hint="Price (Per ml)"
+        android:hint="Price (Per g)"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
