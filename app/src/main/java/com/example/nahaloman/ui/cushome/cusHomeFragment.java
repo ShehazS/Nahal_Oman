@@ -25,8 +25,8 @@ public class cusHomeFragment extends Fragment {
         binding = FragmentCushomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        cusHomeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //final TextView textView = binding.textHome;
+        //cusHomeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

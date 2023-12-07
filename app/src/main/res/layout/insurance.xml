@@ -19,7 +19,6 @@
 
 
         <TextView
-            android:id="@+id/textView1"
             android:layout_width="391dp"
             android:layout_height="48dp"
             android:layout_marginBottom="624dp"
@@ -28,7 +27,6 @@
             android:textSize="24dp" />
 
         <TextView
-            android:id="@+id/textView2"
             android:layout_width="391dp"
             android:layout_height="87dp"
             android:paddingTop="30dp"
@@ -37,7 +35,6 @@
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="142dp"
             android:layout_height="wrap_content"
             android:paddingTop="80dp"
