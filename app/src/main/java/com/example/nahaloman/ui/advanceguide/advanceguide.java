@@ -14,30 +14,24 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.nahaloman.databinding.FragmentGalleryBinding;
-import com.example.nahaloman.ui.gallery.GalleryViewModel;
+import com.example.nahaloman.databinding.AdvanceguideBinding;
+import com.example.nahaloman.ui.advanceguide.AdvanceguideViewModel;
 
 public class advanceguide extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private AdvanceguideBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         AdvanceguideViewModel galleryViewModel =
                 new ViewModelProvider(this).get(AdvanceguideViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = AdvanceguideBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         //final TextView textView = binding.textGallery;
         //galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        final Button button = binding.button;
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Hello", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
         return root;
     }

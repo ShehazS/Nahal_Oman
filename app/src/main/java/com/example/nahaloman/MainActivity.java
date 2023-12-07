@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Support Center Action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         View headerView = navigationView.getHeaderView(0); // 0 is the index of the header view
 
         TextView businessname = headerView.findViewById(R.id.businessname); // Replace textViewId with the actual ID of your TextView
-        businessname.setText("Shakku LLC");
+        businessname.setText("Business Name");
         TextView businessmanname = headerView.findViewById(R.id.businessmanname); // Replace textViewId with the actual ID of your TextView
-        businessmanname.setText("Shakku Snake");
+        businessmanname.setText("Owner Name");
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId()==R.id.action_settings) {
-            Toast.makeText(this, "Hehe u touched me", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "additional settings to be implemented", Toast.LENGTH_SHORT).show();
             return true;
         }
         else
