@@ -14,29 +14,23 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.nahaloman.databinding.FragmentGalleryBinding;
-import com.example.nahaloman.ui.gallery.GalleryViewModel;
+import com.example.nahaloman.databinding.FragmentInsuranceBinding;
+import com.example.nahaloman.ui.insurance.insuranceViewModel;
 
 public class insurance extends Fragment {
-    private FragmentGalleryBinding binding;
+    private FragmentInsuranceBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         insuranceViewModel galleryViewModel =
                 new ViewModelProvider(this).get(insuranceViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentInsuranceBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         //final TextView textView = binding.textGallery;
         //galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        final Button button = binding.button;
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Hello", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
         return root;
     }

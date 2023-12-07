@@ -14,29 +14,23 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.nahaloman.databinding.FragmentGalleryBinding;
-import com.example.nahaloman.ui.gallery.GalleryViewModel;
+import com.example.nahaloman.databinding.MicrofinanceBinding;
+import com.example.nahaloman.ui.microfinance.microfinanceViewModel;
 
 public class microfinance extends Fragment {
-    private FragmentGalleryBinding binding;
+    private MicrofinanceBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         microfinanceViewModel galleryViewModel =
                 new ViewModelProvider(this).get(microfinanceViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = MicrofinanceBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         //final TextView textView = binding.textGallery;
         //galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        final Button button = binding.button;
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getContext(), "Hello", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
         return root;
     }
