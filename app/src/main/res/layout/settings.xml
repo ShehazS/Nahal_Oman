@@ -103,4 +103,12 @@
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18" />
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="186dp"
+        android:layout_height="105dp"
+        android:src="@drawable/change_profile"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="265dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
